@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1016CA011D5B72BF004915A7 /* dobotBgm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1016CA001D5B72BF004915A7 /* dobotBgm.jpg */; };
+		1016CA051D5B736B004915A7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1016CA041D5B736B004915A7 /* Icon.png */; };
+		10309F1B1D37259D00591462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10309F1A1D37259D00591462 /* main.m */; };
+		10309F1E1D37259D00591462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10309F1D1D37259D00591462 /* AppDelegate.m */; };
+		10309F211D37259D00591462 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10309F201D37259D00591462 /* ViewController.m */; };
+		10309F241D37259D00591462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10309F221D37259D00591462 /* Main.storyboard */; };
+		10309F261D37259D00591462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10309F251D37259D00591462 /* Assets.xcassets */; };
+		10309F291D37259D00591462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10309F271D37259D00591462 /* LaunchScreen.storyboard */; };
+		10309F341D37259D00591462 /* DoBotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10309F331D37259D00591462 /* DoBotTests.m */; };
+		10309F3F1D37259D00591462 /* DoBotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10309F3E1D37259D00591462 /* DoBotUITests.m */; };
+		10309F4F1D3725C200591462 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10309F4D1D3725C200591462 /* HomeViewController.m */; };
+		10309F501D3725C200591462 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10309F4E1D3725C200591462 /* HomeViewController.xib */; };
+		108869821D5325400046BAAB /* CoustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 108869811D5325400046BAAB /* CoustomView.m */; };
+		108869851D5428480046BAAB /* XYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 108869841D5428480046BAAB /* XYView.m */; };
+		109E7BDA1D3F22AA0031BC44 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109E7BD91D3F22AA0031BC44 /* SystemConfiguration.framework */; };
+		109E7BDD1D3F24D10031BC44 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 109E7BDC1D3F24D10031BC44 /* Reachability.m */; };
+		109E7BDF1D3F8B3D0031BC44 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109E7BDE1D3F8B3D0031BC44 /* AudioToolbox.framework */; };
+		109E7BE21D3F9B2E0031BC44 /* SystemSounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 109E7BE11D3F9B2E0031BC44 /* SystemSounds.m */; };
+		109E7BE41D3FA3730031BC44 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109E7BE31D3FA3730031BC44 /* CoreMotion.framework */; };
+		109E7BE81D3FA8B80031BC44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109E7BE71D3FA8B80031BC44 /* UIKit.framework */; };
+		109E7BEA1D3FA8C40031BC44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109E7BE91D3FA8C40031BC44 /* Foundation.framework */; };
+		10C1C4061D3A1FBE00F6308C /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C1C4051D3A1FBE00F6308C /* AsyncSocket.m */; };
+		10E7ED1C1D504A0100D29A9A /* main_slider_bg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E7ED1B1D504A0100D29A9A /* main_slider_bg_1.png */; };
+		10E7ED281D504B7800D29A9A /* main_slider_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E7ED271D504B7800D29A9A /* main_slider_btn.png */; };
+		10EF0C991D58344000182496 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EF0C971D58344000182496 /* WebViewController.m */; };
+		10EF0C9A1D58344000182496 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10EF0C981D58344000182496 /* WebViewController.xib */; };
+		10F198E11D5072FB006E925C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F198DF1D5072FB006E925C /* SettingViewController.m */; };
+		10F198E21D5072FB006E925C /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10F198E01D5072FB006E925C /* SettingViewController.xib */; };
+		10F4F7A31D39E53500025AA8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F4F7A21D39E53500025AA8 /* CFNetwork.framework */; };
+		10F982141D49DC5D0015480F /* DobotPowerCmdData.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F982131D49DC5D0015480F /* DobotPowerCmdData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10309F301D37259D00591462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10309F0E1D37259D00591462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10309F151D37259D00591462;
+			remoteInfo = DoBot;
+		};
+		10309F3B1D37259D00591462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10309F0E1D37259D00591462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10309F151D37259D00591462;
+			remoteInfo = DoBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1016CA001D5B72BF004915A7 /* dobotBgm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dobotBgm.jpg; sourceTree = "<group>"; };
+		1016CA041D5B736B004915A7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		10309F161D37259D00591462 /* DoBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10309F1A1D37259D00591462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10309F1C1D37259D00591462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10309F1D1D37259D00591462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10309F1F1D37259D00591462 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10309F201D37259D00591462 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10309F231D37259D00591462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10309F251D37259D00591462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10309F281D37259D00591462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10309F2A1D37259D00591462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10309F2F1D37259D00591462 /* DoBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10309F331D37259D00591462 /* DoBotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoBotTests.m; sourceTree = "<group>"; };
+		10309F351D37259D00591462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10309F3A1D37259D00591462 /* DoBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10309F3E1D37259D00591462 /* DoBotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoBotUITests.m; sourceTree = "<group>"; };
+		10309F401D37259D00591462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10309F4C1D3725C200591462 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		10309F4D1D3725C200591462 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		10309F4E1D3725C200591462 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		108094031D38E3EA001E7BE7 /* PublieHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublieHeader.h; sourceTree = "<group>"; };
+		1088697E1D52F02D0046BAAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		108869801D5325400046BAAB /* CoustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoustomView.h; sourceTree = "<group>"; };
+		108869811D5325400046BAAB /* CoustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoustomView.m; sourceTree = "<group>"; };
+		108869831D54283A0046BAAB /* XYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYView.h; sourceTree = "<group>"; };
+		108869841D5428480046BAAB /* XYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYView.m; sourceTree = "<group>"; };
+		109E7BD91D3F22AA0031BC44 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		109E7BDB1D3F24D10031BC44 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		109E7BDC1D3F24D10031BC44 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		109E7BDE1D3F8B3D0031BC44 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		109E7BE01D3F9B2E0031BC44 /* SystemSounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSounds.h; sourceTree = "<group>"; };
+		109E7BE11D3F9B2E0031BC44 /* SystemSounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSounds.m; sourceTree = "<group>"; };
+		109E7BE31D3FA3730031BC44 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		109E7BE71D3FA8B80031BC44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		109E7BE91D3FA8C40031BC44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10C1C4041D3A1FB800F6308C /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		10C1C4051D3A1FBE00F6308C /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		10E7ED1B1D504A0100D29A9A /* main_slider_bg_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_slider_bg_1.png; sourceTree = "<group>"; };
+		10E7ED271D504B7800D29A9A /* main_slider_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_slider_btn.png; sourceTree = "<group>"; };
+		10EF0C961D58344000182496 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		10EF0C971D58344000182496 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		10EF0C981D58344000182496 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		10F198DE1D5072FB006E925C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		10F198DF1D5072FB006E925C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		10F198E01D5072FB006E925C /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		10F4F7A21D39E53500025AA8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		10F982121D49DC5D0015480F /* DobotPowerCmdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DobotPowerCmdData.h; sourceTree = "<group>"; };
+		10F982131D49DC5D0015480F /* DobotPowerCmdData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DobotPowerCmdData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10309F131D37259D00591462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109E7BEA1D3FA8C40031BC44 /* Foundation.framework in Frameworks */,
+				109E7BE81D3FA8B80031BC44 /* UIKit.framework in Frameworks */,
+				109E7BE41D3FA3730031BC44 /* CoreMotion.framework in Frameworks */,
+				109E7BDF1D3F8B3D0031BC44 /* AudioToolbox.framework in Frameworks */,
+				109E7BDA1D3F22AA0031BC44 /* SystemConfiguration.framework in Frameworks */,
+				10F4F7A31D39E53500025AA8 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10309F2C1D37259D00591462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10309F371D37259D00591462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10309F0D1D37259D00591462 = {
+			isa = PBXGroup;
+			children = (
+				1088697E1D52F02D0046BAAB /* CoreGraphics.framework */,
+				10F4F7A41D39E53B00025AA8 /* Framework */,
+				10309F181D37259D00591462 /* DoBot */,
+				10309F321D37259D00591462 /* DoBotTests */,
+				10309F3D1D37259D00591462 /* DoBotUITests */,
+				10309F171D37259D00591462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10309F171D37259D00591462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10309F161D37259D00591462 /* DoBot.app */,
+				10309F2F1D37259D00591462 /* DoBotTests.xctest */,
+				10309F3A1D37259D00591462 /* DoBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10309F181D37259D00591462 /* DoBot */ = {
+			isa = PBXGroup;
+			children = (
+				108094011D38E353001E7BE7 /* PubileFile */,
+				108093FD1D38DD05001E7BE7 /* Home */,
+				10309F1C1D37259D00591462 /* AppDelegate.h */,
+				10309F1D1D37259D00591462 /* AppDelegate.m */,
+				10309F1F1D37259D00591462 /* ViewController.h */,
+				10309F201D37259D00591462 /* ViewController.m */,
+				10309F221D37259D00591462 /* Main.storyboard */,
+				10309F251D37259D00591462 /* Assets.xcassets */,
+				10309F271D37259D00591462 /* LaunchScreen.storyboard */,
+				10309F2A1D37259D00591462 /* Info.plist */,
+				10309F191D37259D00591462 /* Supporting Files */,
+			);
+			path = DoBot;
+			sourceTree = "<group>";
+		};
+		10309F191D37259D00591462 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1016CA041D5B736B004915A7 /* Icon.png */,
+				1016CA001D5B72BF004915A7 /* dobotBgm.jpg */,
+				10E7ED271D504B7800D29A9A /* main_slider_btn.png */,
+				10E7ED1B1D504A0100D29A9A /* main_slider_bg_1.png */,
+				10309F1A1D37259D00591462 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10309F321D37259D00591462 /* DoBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				10309F331D37259D00591462 /* DoBotTests.m */,
+				10309F351D37259D00591462 /* Info.plist */,
+			);
+			path = DoBotTests;
+			sourceTree = "<group>";
+		};
+		10309F3D1D37259D00591462 /* DoBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10309F3E1D37259D00591462 /* DoBotUITests.m */,
+				10309F401D37259D00591462 /* Info.plist */,
+			);
+			path = DoBotUITests;
+			sourceTree = "<group>";
+		};
+		108093FC1D38DCE1001E7BE7 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				10C1C4041D3A1FB800F6308C /* AsyncSocket.h */,
+				10C1C4051D3A1FBE00F6308C /* AsyncSocket.m */,
+				109E7BDB1D3F24D10031BC44 /* Reachability.h */,
+				109E7BDC1D3F24D10031BC44 /* Reachability.m */,
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+		108093FD1D38DD05001E7BE7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				10E9AE201D4B570800F7574B /* Image */,
+				10E9AE1F1D4B56FB00F7574B /* Opertion */,
+				10E9AE1E1D4B56EF00F7574B /* ConnterView */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		108094011D38E353001E7BE7 /* PubileFile */ = {
+			isa = PBXGroup;
+			children = (
+				108093FC1D38DCE1001E7BE7 /* Socket */,
+				10E9AE211D4B573800F7574B /* System */,
+			);
+			name = PubileFile;
+			sourceTree = "<group>";
+		};
+		10E9AE1E1D4B56EF00F7574B /* ConnterView */ = {
+			isa = PBXGroup;
+			children = (
+				10309F4C1D3725C200591462 /* HomeViewController.h */,
+				10309F4D1D3725C200591462 /* HomeViewController.m */,
+				10309F4E1D3725C200591462 /* HomeViewController.xib */,
+				10F198DE1D5072FB006E925C /* SettingViewController.h */,
+				10F198DF1D5072FB006E925C /* SettingViewController.m */,
+				10F198E01D5072FB006E925C /* SettingViewController.xib */,
+				108869801D5325400046BAAB /* CoustomView.h */,
+				108869811D5325400046BAAB /* CoustomView.m */,
+				108869831D54283A0046BAAB /* XYView.h */,
+				108869841D5428480046BAAB /* XYView.m */,
+				10EF0C961D58344000182496 /* WebViewController.h */,
+				10EF0C971D58344000182496 /* WebViewController.m */,
+				10EF0C981D58344000182496 /* WebViewController.xib */,
+			);
+			name = ConnterView;
+			sourceTree = "<group>";
+		};
+		10E9AE1F1D4B56FB00F7574B /* Opertion */ = {
+			isa = PBXGroup;
+			children = (
+				109E7BE01D3F9B2E0031BC44 /* SystemSounds.h */,
+				109E7BE11D3F9B2E0031BC44 /* SystemSounds.m */,
+				10F982121D49DC5D0015480F /* DobotPowerCmdData.h */,
+				10F982131D49DC5D0015480F /* DobotPowerCmdData.m */,
+			);
+			name = Opertion;
+			sourceTree = "<group>";
+		};
+		10E9AE201D4B570800F7574B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		10E9AE211D4B573800F7574B /* System */ = {
+			isa = PBXGroup;
+			children = (
+				108094031D38E3EA001E7BE7 /* PublieHeader.h */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		10F4F7A41D39E53B00025AA8 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				109E7BE71D3FA8B80031BC44 /* UIKit.framework */,
+				109E7BE91D3FA8C40031BC44 /* Foundation.framework */,
+				109E7BE31D3FA3730031BC44 /* CoreMotion.framework */,
+				109E7BDE1D3F8B3D0031BC44 /* AudioToolbox.framework */,
+				109E7BD91D3F22AA0031BC44 /* SystemConfiguration.framework */,
+				10F4F7A21D39E53500025AA8 /* CFNetwork.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10309F151D37259D00591462 /* DoBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10309F431D37259D00591462 /* Build configuration list for PBXNativeTarget "DoBot" */;
+			buildPhases = (
+				10309F121D37259D00591462 /* Sources */,
+				10309F131D37259D00591462 /* Frameworks */,
+				10309F141D37259D00591462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoBot;
+			productName = DoBot;
+			productReference = 10309F161D37259D00591462 /* DoBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10309F2E1D37259D00591462 /* DoBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10309F461D37259D00591462 /* Build configuration list for PBXNativeTarget "DoBotTests" */;
+			buildPhases = (
+				10309F2B1D37259D00591462 /* Sources */,
+				10309F2C1D37259D00591462 /* Frameworks */,
+				10309F2D1D37259D00591462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10309F311D37259D00591462 /* PBXTargetDependency */,
+			);
+			name = DoBotTests;
+			productName = DoBotTests;
+			productReference = 10309F2F1D37259D00591462 /* DoBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10309F391D37259D00591462 /* DoBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10309F491D37259D00591462 /* Build configuration list for PBXNativeTarget "DoBotUITests" */;
+			buildPhases = (
+				10309F361D37259D00591462 /* Sources */,
+				10309F371D37259D00591462 /* Frameworks */,
+				10309F381D37259D00591462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10309F3C1D37259D00591462 /* PBXTargetDependency */,
+			);
+			name = DoBotUITests;
+			productName = DoBotUITests;
+			productReference = 10309F3A1D37259D00591462 /* DoBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10309F0E1D37259D00591462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "羊德元";
+				TargetAttributes = {
+					10309F151D37259D00591462 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MQA8CYJZWQ;
+					};
+					10309F2E1D37259D00591462 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MQA8CYJZWQ;
+						TestTargetID = 10309F151D37259D00591462;
+					};
+					10309F391D37259D00591462 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MQA8CYJZWQ;
+						TestTargetID = 10309F151D37259D00591462;
+					};
+				};
+			};
+			buildConfigurationList = 10309F111D37259D00591462 /* Build configuration list for PBXProject "DoBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10309F0D1D37259D00591462;
+			productRefGroup = 10309F171D37259D00591462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10309F151D37259D00591462 /* DoBot */,
+				10309F2E1D37259D00591462 /* DoBotTests */,
+				10309F391D37259D00591462 /* DoBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10309F141D37259D00591462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E7ED281D504B7800D29A9A /* main_slider_btn.png in Resources */,
+				10309F291D37259D00591462 /* LaunchScreen.storyboard in Resources */,
+				1016CA051D5B736B004915A7 /* Icon.png in Resources */,
+				10309F261D37259D00591462 /* Assets.xcassets in Resources */,
+				10EF0C9A1D58344000182496 /* WebViewController.xib in Resources */,
+				10E7ED1C1D504A0100D29A9A /* main_slider_bg_1.png in Resources */,
+				10309F241D37259D00591462 /* Main.storyboard in Resources */,
+				10309F501D3725C200591462 /* HomeViewController.xib in Resources */,
+				10F198E21D5072FB006E925C /* SettingViewController.xib in Resources */,
+				1016CA011D5B72BF004915A7 /* dobotBgm.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10309F2D1D37259D00591462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10309F381D37259D00591462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10309F121D37259D00591462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10309F211D37259D00591462 /* ViewController.m in Sources */,
+				10F982141D49DC5D0015480F /* DobotPowerCmdData.m in Sources */,
+				10309F1E1D37259D00591462 /* AppDelegate.m in Sources */,
+				108869821D5325400046BAAB /* CoustomView.m in Sources */,
+				109E7BDD1D3F24D10031BC44 /* Reachability.m in Sources */,
+				10309F1B1D37259D00591462 /* main.m in Sources */,
+				10F198E11D5072FB006E925C /* SettingViewController.m in Sources */,
+				10EF0C991D58344000182496 /* WebViewController.m in Sources */,
+				10309F4F1D3725C200591462 /* HomeViewController.m in Sources */,
+				109E7BE21D3F9B2E0031BC44 /* SystemSounds.m in Sources */,
+				108869851D5428480046BAAB /* XYView.m in Sources */,
+				10C1C4061D3A1FBE00F6308C /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10309F2B1D37259D00591462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10309F341D37259D00591462 /* DoBotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10309F361D37259D00591462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10309F3F1D37259D00591462 /* DoBotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10309F311D37259D00591462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10309F151D37259D00591462 /* DoBot */;
+			targetProxy = 10309F301D37259D00591462 /* PBXContainerItemProxy */;
+		};
+		10309F3C1D37259D00591462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10309F151D37259D00591462 /* DoBot */;
+			targetProxy = 10309F3B1D37259D00591462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10309F221D37259D00591462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10309F231D37259D00591462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10309F271D37259D00591462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10309F281D37259D00591462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10309F411D37259D00591462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10309F421D37259D00591462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10309F441D37259D00591462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = DoBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoBotaaa;
+				PRODUCT_MODULE_NAME = DoBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DoBot/DoBot-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10309F451D37259D00591462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = DoBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoBotaaa;
+				PRODUCT_MODULE_NAME = DoBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DoBot/DoBot-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10309F471D37259D00591462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoBot.app/DoBot";
+			};
+			name = Debug;
+		};
+		10309F481D37259D00591462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoBot.app/DoBot";
+			};
+			name = Release;
+		};
+		10309F4A1D37259D00591462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoBot;
+			};
+			name = Debug;
+		};
+		10309F4B1D37259D00591462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10309F111D37259D00591462 /* Build configuration list for PBXProject "DoBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10309F411D37259D00591462 /* Debug */,
+				10309F421D37259D00591462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10309F431D37259D00591462 /* Build configuration list for PBXNativeTarget "DoBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10309F441D37259D00591462 /* Debug */,
+				10309F451D37259D00591462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10309F461D37259D00591462 /* Build configuration list for PBXNativeTarget "DoBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10309F471D37259D00591462 /* Debug */,
+				10309F481D37259D00591462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10309F491D37259D00591462 /* Build configuration list for PBXNativeTarget "DoBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10309F4A1D37259D00591462 /* Debug */,
+				10309F4B1D37259D00591462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10309F0E1D37259D00591462 /* Project object */;
+}

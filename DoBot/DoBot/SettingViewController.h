@@ -1,0 +1,16 @@
+//
+//  SettingViewController.h
+//  DoBot
+//
+//  Created by 羊德元 on 16/8/2.
+//  Copyright © 2016年 羊德元. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SettingViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+{
+    
+}
+
+@end
